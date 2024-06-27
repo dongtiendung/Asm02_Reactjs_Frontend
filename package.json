@@ -47,5 +47,5 @@
             "last 1 safari version"
         ]
     },
-    "proxy": "https://asm02-nodejs-backend.onrender.com//api"
+    "proxy": "https://asm02-nodejs-backend.onrender.com/api"
 }

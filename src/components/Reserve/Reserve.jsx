@@ -78,7 +78,7 @@ const Reserve = ({ hotelId, cheapestPrice }) => {
         const end = format(datesRange[0].endDate, 'yyyy-MM-dd');
 
         try {
-            const res = await axios.post('https://asm02-nodejs-backend.onrender.com//api/transaction', {
+            const res = await axios.post('https://asm02-nodejs-backend.onrender.com/api/transaction', {
                 user: user._id,
                 hotel: hotel.title,
                 hotelId: hotel._id,
